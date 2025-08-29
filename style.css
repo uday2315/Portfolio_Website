@@ -6,6 +6,7 @@
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
     max-width: 100%;
     font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #fafafa;
@@ -41,7 +42,9 @@ body {
 }
 
 
-.infinity {
+/* .infinity {
+    max-width: 100%;
+    overflow: hidden;
     height: 100px;
     position: relative;
 
@@ -68,11 +71,11 @@ body {
     left: 1350px;
     bottom: 520px;
     transform: rotate(45deg);
-}
+} */
 
 header {
     background: linear-gradient(to bottom, #5eb3fc, #1b5a99);
-    height: 70vh;
+    height: 70%;
     color: white;
     padding: 10px 20px;
 
@@ -178,7 +181,8 @@ p {
 
 #about {
 
-    width: 70%;
+    width: 100%;
+    max-width: 900px;
     text-align: center;
     padding: 2rem;
     margin: 50px auto;
@@ -436,6 +440,7 @@ footer {
         height: auto;
         display: block;
     }
+    
 
 }
 
